@@ -5,7 +5,7 @@ from PIL import Image
 
 st.title("Atv 5: HSV e recorte")
 
-foto = Image.open("imagens/foto.jpg")
+foto = Image.open("imagens/foto.jpeg")
 img = np.array(foto)
 
 st.header("1. HSV")
